@@ -15,7 +15,7 @@ public class Properties {
     static Color colorBG; // будет реализовано в андроид
     static String pathBook; // путь до книги
 
-    Properties() {
+    static void loadProperties() {
         try {
             File file = new File("C:\\Users\\Vlad\\Desktop\\Readlia\\Properties.txt");
             FileReader fr = new FileReader(file);

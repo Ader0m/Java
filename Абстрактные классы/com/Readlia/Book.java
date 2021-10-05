@@ -14,6 +14,17 @@ public class Book {
     int progressRead;//прогресс чтения в %
     String pathBook; // путь до книги
 
+    public Book() {
+        BufferedImage cover = null;
+        String title =    "";
+        String author =   "";
+        String genre =    "";
+        int pageCount =    1;
+        int pageNumber =   1;
+        int progressRead = 1;
+        String pathBook = "";
+    }
+
     public BufferedImage getCover() {
         return cover;
     }
