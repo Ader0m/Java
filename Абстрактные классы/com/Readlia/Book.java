@@ -21,7 +21,7 @@ public class Book {
         String genre =    "";
         int pageCount =    1;
         int pageNumber =   1;
-        int progressRead = 1;
+        int progressRead = 0;
         String pathBook = "";
     }
 
