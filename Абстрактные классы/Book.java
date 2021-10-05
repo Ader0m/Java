@@ -69,6 +69,15 @@ public class Book {
     public void setProgressRead() {
         this.progressRead = this.pageNumber/this.pageCount*100;
     }
+    
+    public string getPathBook() {
+        return pathBook;
+    }
+    
+    public void setPathBook(String PathBook) {
+        this.pathBook = PathBook;
+    }
+    
     public void read() {
         File fileName = new File(pathBook);
         try {
